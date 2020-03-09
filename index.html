@@ -1,31 +1,46 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link href= "css/styles.css" rel= "stylesheet" type= "text/css"
+    <link href= "css/styles.css" rel= "stylesheet" type= "text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ef1c27da98.js" crossorigin="anonymous"></script>
     <meta charset="utf-8">
     <title>Yannik Vaessen</title>
   </head>
   <body>
-    <header>
-      <h2 class= "logo">Mylogo</h2>
-      <input type= "checkbox" id="nav-toggle" class= "nav-toggle">
-        <nav>
-          <ul>
-            <li><a href= "index.html" >Home</a></li>
-            <li><a href= "Education.html" >Education</a></li>
-            <li><a href= "Work experience.html" >Work experience</a></li>
-            <li><a href= "Projects.html" >Projects</a></li>
-            <li><a href= "Contact.html" >Contact</a></li>
-          </ul>
-            </nav>
-            <label for="nav-toggle" class="nav-toggle-click">
-              <span></span>
-              </label>
-          </header>
+    <div class="header">
+      <h1 class= "logo">Mylogo</h1>
+      <input type="checkbox" id="chk">
+      <label for="chk" class="show-menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
 
-          <div class= "Header1">
-          <h1>Hello, my name is Yannik</h1>
-          <h2>and I am a UX student</h2>
+      <ul class="menu">
+          <a href= "index.html">Home</a>
+          <a href= "Education.html">Education</a>
+          <a href= "workexperience.html">Work Experience</a>
+          <a href= "projects.html">Projects</a>
+          <a href= "contacts.html">Contact</a>
+          <label for="chk" class="hide-menu-btn">
+            <i class="fas fa-times"></i>
+          </label>
+        </ul>
+      </div>
+          <section class= "containerintro">
+            <div class= "introtext">
+              <h2>Hello, my name is Yannik</h2>
+              <h3>and I am a UXD student.</h3>
+            </div>
+            <div class= "intropicture">
+            <img src="images/yannik.png"alt="Yannik" >
+          </div>
+          </section>
+        <section class= "containerinfo">
+          <p> I was born in stuttgart on the 19th of July 2000. Since then
+                i lived in multiple citys, like Berlin, Munich, Cologne or even Melbourne
+                  during my year of working and traveling in Australia.</p>
         </div>
   </body>
 </html>
