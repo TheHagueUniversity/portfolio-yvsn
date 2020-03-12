@@ -113,7 +113,11 @@ p{
   font-size: 18px;
   color: rgb(4, 15, 22);
 }
-
+h6{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color: rgb(4, 15, 22);
+}
 .containerintro{
   width: 95%;
   height: 90%;
@@ -169,31 +173,23 @@ flex-direction: column;
   height: auto;
   border-top: 1px solid #000;
   background: #e9f2f2;
-
 }
-
-
 .footerdiv{
+  padding-bottom: 20px;
+}
+.footertext{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction:column;
-  padding-bottom: 20px;
-
-}
-.footertext{
   padding-top: 20px;
   padding-bottom: 20px;
 }
-
 .logos{
-    width: 85%;
     justify-content: center;
     align-content:center;
     height: auto;
     display: flex;
     flex-direction:row;
-
 }
 .logos img{
   width: 80%;
@@ -293,4 +289,89 @@ margin-bottom: 100px;
   background: #dbeaff;
   padding-left: 20px;
   padding-right: 20px;
+}
+.contact{
+  padding-top: 80px;
+  width: 100%;
+  height: auto;
+  margin: 0,auto;
+  margin-bottom: 100px;
+}
+.contacthead{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.contacttextheader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+.contactbox1{
+  width:100%;
+  background-color:#97cbde;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin-bottom: 40px;
+  padding-top: 7px;
+  padding-bottom: 3px;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-decoration: none;
+}
+.contacttext1{
+  width: 60%;
+  color:white;
+  padding-right: 20%;
+}
+.contactimage1{
+  width:10%;
+}
+.contactimage1 img{
+  width: 100%;
+}
+.contactbox2{
+  background-color: #97dedb;
+  width:100%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin-bottom: 40px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.contacttext2{
+  width: 60%;
+  color:white;
+}
+.contactimage2{
+  width:10%;
+}
+.contactimage2 img{
+  width: 100%;
+}
+.contactbox3{
+  background-color:#97cbde;
+  width:100%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin-bottom: 100px;
+  padding-left: 10%;
+  padding-right: 10%
+}
+.contacttext3{
+  width: 60%;
+  color:white;
+}
+.contactimage3{
+  width:10%;
+}
+.contactimage3 img{
+  width: 100%;
 }
