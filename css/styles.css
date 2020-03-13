@@ -324,8 +324,6 @@ margin-bottom: 100px;
 }
 .contacttext1{
   width: 60%;
-  color:white;
-  padding-right: 20%;
 }
 .contactimage1{
   width:10%;
@@ -347,7 +345,6 @@ margin-bottom: 100px;
 }
 .contacttext2{
   width: 60%;
-  color:white;
 }
 .contactimage2{
   width:10%;
@@ -367,11 +364,118 @@ margin-bottom: 100px;
 }
 .contacttext3{
   width: 60%;
-  color:white;
+  padding-right: 20%;
 }
 .contactimage3{
   width:10%;
 }
 .contactimage3 img{
   width: 100%;
+}
+.projects{
+  padding-top: 80px;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: auto;
+  margin: 0,auto;
+  margin-bottom: 100px;
+}
+.projectshead{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+.projectsbox1{
+  width:100%;
+  background-color:#fafba4;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+.projectstext1{
+  width: 40%;
+    padding-right: 5%;
+}
+.projectstext1 h6{
+  padding-bottom: 5px;
+}
+.projectsimage1{
+  width: 40%;
+}
+.projectsimage1 img{
+  width: 100%;
+ box-shadow: 0px 2px 20px rgba(98, 98, 98, 0.6);
+}
+.projectsbox2{
+  width:100%;
+  background-color:#a1e6e3;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+.projectstext2{
+  width: 40%;
+  padding-right: 5%;
+}
+.projectstext2 h6{
+  padding-bottom: 5px;
+}
+.projectsimage2{
+  width: 40%;
+}
+.projectsimage2 img{
+  width: 100%;
+ box-shadow: 0px 2px 20px rgba(98, 98, 98, 0.6);
+}
+.projectsbox3{
+  width:100%;
+  background-color:#eca0b6;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+.projectstext3{
+  width: 40%;
+  padding-right: 5%;
+}
+.projectstext3 h6{
+  padding-bottom: 5px;
+}
+.projectsimage3{
+  width: 40%;
+}
+.projectsimage3 img{
+  width: 100%;
+ box-shadow: 0px 2px 20px rgba(98, 98, 98, 0.6);
+}
+.projectsbox4{
+  width:100%;
+  background-color:#d7fffd;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+
+.projectstext4{
+  width: 40%;
+  padding-right: 5%;
+}
+.projectstext4 h6{
+  padding-bottom: 5px;
+}
+.projectsimage4{
+  width: 40%;
+}
+.projectsimage4 img{
+  width: 100%;
+ box-shadow: 0px 2px 20px rgba(98, 98, 98, 0.6);
 }
