@@ -260,11 +260,15 @@ margin-bottom: 100px;
   flex-direction: column;
   padding-bottom: 40px;
 }
-
+.work{
+  text-align: center;
+  margin: 20px 0;
+}
+.work1{
+  margin-top: 0;
+}
 .color1,.color2,.color3,.color4,.color5 {
   background: #dbeaff;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 .contact{
   padding-top: 80px;
@@ -272,69 +276,60 @@ margin-bottom: 100px;
   margin: 0,auto;
   margin-bottom: 100px;
 }
+
 .contacthead{
   display: flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 10px;
 }
+
 .contacttextheader{
   display: flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 40px;
 }
-.contactbox1{
-  width:100%;
-  background-color:#97cbde;
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  margin-bottom: 40px;
-  padding-top: 7px;
-  padding-bottom: 3px;
-  padding-left: 10%;
-  padding-right: 10%;
+.contact-container1{
+  width: 100%;
+    background-color:#97cbde;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.contact-container2{
+  width: 100%;
+    background-color: #97dedb;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.contact-link{
+    text-decoration: none;
 }
 .contacttext1{
   width: 60%;
 }
 .contactimage1{
-  width:10%;
+  display: flex;
 }
 .contactimage1 img{
-  width: 100%;
-}
-.contactbox2{
-  background-color: #97dedb;
-  width:100%;
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  margin-bottom: 40px;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  padding-left: 10%;
-  padding-right: 10%;
+  width:80px;
+  height:80px;
 }
 .contacttext2{
   width: 60%;
+  text-decoration: none;
 }
 .contactimage2{
   width:10%;
 }
 .contactimage2 img{
   width: 100%;
-}
-.contactbox3{
-  background-color:#97cbde;
-  width:100%;
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  margin-bottom: 100px;
-  padding-left: 10%;
-  padding-right: 10%
 }
 .contacttext3{
   width: 60%;
@@ -519,4 +514,66 @@ margin-bottom: 100px;
 }
 .prototypebespoke{
    box-shadow: 0px 2px 20px rgba(98, 98, 98, 0.6);
+}
+.photography{
+  padding-top: 80px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin: 0,auto;
+  margin-bottom: 40px;
+}
+.photographyhead{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom: 40px;
+  }
+  .photographytext{
+    width:100%;
+    background-color:#d7fffd;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 20px;
+    line-height: 35px;
+  }
+.photographytext1{
+padding-bottom:  10px;
+}
+.photography2{
+margin-left: 10%;
+margin-right: 10%;
+margin: 0,auto;
+margin-bottom: 100px;
+}
+.photographypictures1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.photographypictures2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.photo-container{
+height: 300px;
+width: 100%;
+}
+.photo-container img{
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 2px 20px rgba(98, 98, 98, 0.6);
+  object-fit: cover;
+}
+.photographypicture2{
+  margin-left: 20px;
+}
+.photographypicture4{
+  margin-left: 20px;
 }
